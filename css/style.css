@@ -121,3 +121,24 @@
     border-radius: 7%;
     filter: sepia(75%);
 }
+/* Ex 10 */
+.ex-10-icon{
+    animation: spining 1s infinite linear reverse;
+}
+
+@keyframes spining{
+
+    from {transform: rotate(0deg);}
+
+    to {transform: rotate(360deg);}
+}
+/* Ex 11 */
+.ex-11-icon:hover{
+    animation: spining-threquarters 2s;
+}
+
+@keyframes spining-threquarters {
+    from {transform: rotate(0deg);}
+    60% {transform: rotate(300deg);}
+    to {transform: translate(300deg);}
+}
