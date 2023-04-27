@@ -101,5 +101,23 @@
 }
 /* Ex 6 */
 .ex-6-img:hover{
-    filter: grayscale(1);
+    filter: grayscale(100%);
+}
+/* Ex 7 */
+.ex-7-img:hover{
+    filter: sepia(70%);
+    transition: 3s;
+}
+/* Ex 8 */
+.ex-8-img:hover{
+    border-radius: 5%;
+    filter: grayscale(75%);
+    transition: 3s;
+}
+/* Ex 9 */
+.ex-9-img:hover{
+    transform: scale(1.5);
+    transition: 2s;
+    border-radius: 7%;
+    filter: sepia(75%);
 }
