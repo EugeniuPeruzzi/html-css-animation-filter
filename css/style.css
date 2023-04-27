@@ -85,3 +85,21 @@
     border-radius: 50%;
     transition: 0.5s;
 }
+/* Ex 4 */
+.ex-4-square:hover{
+    opacity: 0;
+    transition: 1.5s;
+}
+/* Ex 5 */
+.ex-5-square:hover{
+    transform: scale(1.9);
+    transition: 1.5s;
+}
+
+.ex-5-square:active{
+    transform: scale(0.5);
+}
+/* Ex 6 */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
